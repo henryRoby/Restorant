@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v9/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Quattrocento Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v11/va9c4lja2NVIDdIAAoMR5MfuElaRB0zHt0_uHA.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Quattrocento Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Quattrocento Sans'), local('QuattrocentoSans'), url(https://fonts.gstatic.com/s/quattrocentosans/v11/va9c4lja2NVIDdIAAoMR5MfuElaRB0zJt08.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+body {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.3em;
+    background-color: rgb(235, 235, 235);
+    color:rgb(112, 73, 73);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    margin:0;
+}
+/* ---------------- ACCUEIL-------------------- */
+h1 {
+    font-size:2em;
+    padding-bottom:2%;
+    padding-top:2%;
+}
+a {
+    color: rgb(218, 190, 190);
+}
+a:hover{
+    color:rgb(255, 255, 255);
+}
+.navbar-nav li a:hover {
+    background-color: rgba(165, 165, 165, 0.3);
+    border-radius: 5px;
+}
+.jumbotron{
+    margin-top: 2%;
+    font-family: 'Satisfy';
+    font-size: 1.3em;
+    padding:3%; 
+}
+.fa {
+    text-align: center;
+    padding-left:3%;
+    padding-right:3%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.follow{
+    font-size:0.8em;
+    padding-top:1%;
+    color:rgb(255, 255, 255);
+}
+.footer-copyright{
+    font-size:0.8em;
+    background-color: #ce2f3f;
+    padding-top:1%;
+    color: rgb(14, 13, 13);
+}
+/* ---------------- MENU-------------------- */
+.list-group{
+    margin-top:3%;
+}
+.list-group-item {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 20px;
+    background-color: #f1edee !important; 
+    color:rgb(112, 73, 73);
+    padding-left:10%;
+}
+.list-group-item:hover{
+    color:#cf4553;
+}
+.list-group-item.titr {
+    font-size: 1.8em;
+    font-family: 'Satisfy', sans-serif;
+    background-color: #ce2f3f !important; 
+    color: #FFFFFF !important;
+    text-align: center;
+    padding-left:0%;
+}
+.no{
+    padding-left:12.3%;
+}
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+}
+/* ---------------- PHOTOS-------------------- */
+.card-text{
+    font-size:0.8em;
+}
+.card-body{
+    padding:2%;
+}
+/* ---------------- RESTOS-------------------- */
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.resto {
+    font-family: "Satisfy";
+    font-size:1.3em;
+    margin-bottom:2%;
+}
+ul {
+    list-style-type: none;
+}
+ul .resto:before {    
+    font-family: 'FontAwesome';
+    content: '\f124';
+    margin:0 5px 0 -15px;
+    color: #ce2f3f;
+}
+ul > p{
+    font-size: 0.8em;
+}
+.s-pace{
+    padding-bottom:5%;
+}
+/* ---------------- CONTACT-------------------- */
+.submit{
+    padding-top:1.5%;
+    padding-bottom:1.5%;
+}
+#submit{
+    font-family: 'Quattrocento Sans', sans-serif;
+    padding-left:10%;
+}
+.logoAnim {
+    animation: bounce 2s linear;
+    -webkit-animation: bounce 2s linear;
+    -moz-animation: bounce 2s linear;
+    -o-animation: bounce 2s linear;
+  }
+  @-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(10px);
+    }
+    60% {
+      -webkit-transform: translateY(5px);
+    }
+  }
+  @-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(10px);
+    }
+    60% {
+      -moz-transform: translateY(5px);
+    }
+  }
+  @-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -o-transform: translateY(0);
+    }
+    40% {
+      -o-transform: translateY(10px);
+    }
+    60% {
+      -o-transform: translateY(5px);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-10px);
+    }
+    60% {
+      transform: translateY(5px);
+    }
+  }
