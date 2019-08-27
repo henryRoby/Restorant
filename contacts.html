@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Jajang Restaurant website">
+    <meta name="keywords" content="jajang korean food restaurant korea flavor asia asian">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link href="assets/CSS/style.css" rel="stylesheet" media="all" type="text/css">
+    <title>Jajang Restaurant</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon2.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="logoAnim img-fluid" src="assets/img/logo-min.png" width="270"
+                    alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+                aria-controls="navbarToggler" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-row-reverse" id="navbarToggler">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Accueil<span class="sr-only">(page
+                                actuelle)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="photos.html">Photos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="restos.html">Restaurants</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="row">
+            <div class="col-12"><img src="assets/img/bann-min.jpeg" class="img-fluid" alt="Image de bannière"></div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="jumbotron text-center">
+                <h1>Contactez-nous</h1>
+                <h3 class="mb-0">pour toute réservation, commande ou livraison</h3>
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nomprenom">Prénom</label>
+                        <input type="text" class="form-control" id="nomprenom" placeholder="Ex: John">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="prenomnom">Nom</label>
+                        <input type="text" class="form-control" id="prenomnom" placeholder="Ex: Smith">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Entrez votre adresse email">
+                    <small id="emailHelp" class="form-text text-muted">Nous ne partagerons jamais votre email avec qui
+                        que ce soit.</small>
+                </div>
+                <div class="form-group">
+                    <label for="objet">Objet</label>
+                    <select id="objet" class="form-control">
+                        <option selected>Vous nous contactez pour une...</option>
+                        <option>Réservation de table</option>
+                        <option>Commande à emporter</option>
+                        <option>Livraison à domicile</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="details">Détails</label>
+                        <textarea class="form-control" id="details" rows="4" placeholder="Détaillez votre demande"></textarea>
+                    </div>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-danger fa fa-check mt-4"><span id="submit">Envoyer</span></button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="page-footer bg-danger mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="follow col-md-12 text-center">
+                    <p>Suivez-nous sur :</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 pb-3 text-center">
+                    <a href="https://www.facebook.com/" aria-label="Access Facebook page"><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/?lang=fr" aria-label="Access Twitter page"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" aria-label="Access Linkedin page"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/" aria-label="Access Instagram page"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.pinterest.com/" aria-label="Access Pinterest page"><i class="fa fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright text-center pb-3 ">© 2018 Copyright:
+            <a href="https://github.com/Gaellga">Gaellga Github Page</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/JS/script.js"></script>
+    <script src="assets/JS/lightbox.js"></script>
+</body>
+
+</html>
